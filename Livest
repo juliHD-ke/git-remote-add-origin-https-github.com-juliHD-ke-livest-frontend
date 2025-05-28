@@ -1,0 +1,7 @@
+echo "# git-remote-add-origin-https-github.com-juliHD-ke-livest-frontend" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/juliHD-ke/git-remote-add-origin-https-github.com-juliHD-ke-livest-frontend.git
+git push -u origin main
